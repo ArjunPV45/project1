@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Zone Visitor Counter</title>
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles1.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Multi-Zone Visitor Counter</h1>
+        
+        <div class="video-container">
+            
+            <div class="zone-buttons">
+                <button data-zone="zone1">Select Zone 1</button>
+                <button data-zone="zone2">Select Zone 2</button>
+                <button data-zone="zone3">Select Zone 3</button>
+                <button data-zone="zone4">Select Zone 4</button>
+                <!--<button data-zone="zone5">Select Zone 5</button>-->
+            </div>
+            <div class="Take snapshot">
+                <button id="snapshot-btn" class="snapshot-button">Take Snapshot</button>
+            </div>     
+        
+            <div class="video-wrapper">
+                <img id="video-feed" src="{{ url_for('video_feed') }}" alt="Live Video Stream">
+                <!--<canvas id="zone-overlay"></canvas>-->
+            </div>   
+        
+        <!-- snapshot model-->
+            <div id="snapshot-model" class="snapshot-model hidden">
+                <div class="snapshot-content">
+                    <img id="snapshot-image" alt="Snapshot">
+                    <!--<button id="close-snapshot" class= "close-button"><&times;/button>-->
+                    <canvas id="zone-overlay"></canvas>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="zone-container">
+            <div class="zone-box" id="zone1-box">
+                <h3>Zone 1</h3>
+                <p>IN: <span id="zone1_in">0</span></p>
+                <p>OUT: <span id="zone1_out">0</span></p>
+                <button id="reset-zone1" class="reset-button">Reset Counts</button>
+                <h4>People Inside:</h4>
+                <ul id="zone1_inside_ids"></ul>
+            </div>
+
+            <div class="zone-box" id="zone2-box">
+                <h3>Zone 2</h3>
+                <p>IN: <span id="zone2_in">0</span></p>
+                <p>OUT: <span id="zone2_out">0</span></p>
+                <button id="reset-zone2" class="reset-button">Reset Counts</button>
+                <h4>People Inside:</h4>
+                <ul id="zone2_inside_ids"></ul>
+            </div>
+
+            <div class="zone-box" id="zone3-box">
+                <h3>Zone 3</h3>
+                <p>IN: <span id="zone3_in">0</span></p>
+                <p>OUT: <span id="zone3_out">0</span></p>
+                <button id="reset-zone3" class="reset-button">Reset Counts</button>
+                <h4>People Inside:</h4>
+                <ul id="zone3_inside_ids"></ul>
+            </div>
+
+            <div class="zone-box" id="zone4-box">
+                <h3>Zone 4</h3>
+                <p>IN: <span id="zone4_in">0</span></p>
+                <p>OUT: <span id="zone4_out">0</span></p>
+                <button id="reset-zone4" class="reset-button">Reset Counts</button>
+                <h4>People Inside:</h4>
+                <ul id="zone4_inside_ids"></ul>
+            </div>
+        </div>
+
+        <div class="history-section">
+            <h2>Visitor History</h2>
+            <table id="history_table">
+                <thead>
+                    <tr>
+                        <th>Zone</th>
+                        <th>ID</th>
+                        <th>Action</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+
+        <!-- New Filtered History Section -->
+        <div class="filtered-history-section">
+            <h2>Filtered History</h2>
+            
+            <div class="filter-controls">
+                <div class="filter-group">
+                    <label for="zone-filter">Zone:</label>
+                    <select id="zone-filter">
+                        <option value="all">All Zones</option>
+                        <option value="zone1">Zone 1</option>
+                        <option value="zone2">Zone 2</option>
+                        <option value="zone3">Zone 3</option>
+                        <option value="zone4">Zone 4</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="action-filter">Action:</label>
+                    <select id="action-filter">
+                        <option value="all">All Actions</option>
+                        <option value="Entered">Entered</option>
+                        <option value="Exited">Exited</option>
+                    </select>
+                </div>
+                
+                <div class="filter-group">
+                    <label for="date-filter">Date:</label>
+                    <input type="date" id="date-filter">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="time-from">Time From:</label>
+                    <input type="time" id="time-from">
+                </div>
+                
+                <div class="filter-group">
+                    <label for="time-to">Time To:</label>
+                    <input type="time" id="time-to">
+                </div>
+                
+                <button id="apply-filters" class="filter-button">Apply Filters</button>
+                <button id="reset-filters" class="filter-button reset">Reset Filters</button>
+            </div>
+            
+            <div class="export-controls">
+                <button id="export-csv" class="export-button">Export to CSV</button>
+            </div>
+            
+            <table id="filtered_history_table">
+                <thead>
+                    <tr>
+                        <th>Zone</th>
+                        <th>ID</th>
+                        <th>Action</th>
+                        <th>Time</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script1.js') }}"></script>
+</body>
+</html>

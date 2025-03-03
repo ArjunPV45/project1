@@ -1,0 +1,436 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Container and Layout */
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+body {
+    background: #1a1a1a;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Video Container and Controls */
+.video-container {
+    position: relative;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.video-wrapper {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#video-feed {
+    max-width: 100%;
+    border-radius: 12px;
+    display: block;
+}
+
+#zone-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: all;
+    cursor: crosshair;
+}
+
+/* Zone Selection Controls */
+.zone-buttons {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.zone-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 1rem;
+}
+
+.zone-buttons button:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-2px);
+}
+
+.zone-buttons button.active {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+/* Zone Information Boxes */
+.zone-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px 0;
+}
+
+.zone-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 12px;
+    min-width: 250px;
+    flex: 1;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.zone-box:hover {
+    transform: translateY(-5px);
+}
+
+.zone-box h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+
+.zone-box p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+.zone-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.zone-box ul li {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 8px;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.control-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+}
+
+.zone-buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.snapshot-button {
+    padding: 10px 20px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.snapshot-button:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+/* Snapshot Modal */
+.snapshot-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.snapshot-modal.hidden {
+    display: none;
+}
+
+.snapshot-content {
+    position: relative;
+    max-width: 90vw;
+    max-height: 90vh;
+}
+
+.snapshot-content img {
+    max-width: 100%;
+    max-height: 90vh;
+    border-radius: 8px;
+}
+
+/* History Section Styling */
+.history-section, .filtered-history-section {
+    margin-top: 40px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 12px;
+    overflow-x: auto;
+}
+
+.history-section h2, .filtered-history-section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* Table Styling */
+#history_table, #filtered_history_table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 8px;
+    margin: 20px 0;
+    background: transparent;
+}
+
+#history_table thead tr, #filtered_history_table thead tr {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#history_table th, #filtered_history_table th {
+    padding: 15px 20px;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+}
+
+#history_table td, #filtered_history_table td {
+    padding: 12px 20px;
+    font-size: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    transition: background-color 0.3s ease;
+}
+
+#history_table tbody tr, #filtered_history_table tbody tr {
+    transition: transform 0.3s ease;
+}
+
+#history_table tbody tr:hover, #filtered_history_table tbody tr:hover {
+    transform: translateX(5px);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* First and last cells in each row */
+#history_table td:first-child, #filtered_history_table td:first-child {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#history_table td:last-child, #filtered_history_table td:last-child {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+/* Column Widths */
+#history_table th:nth-child(1), 
+#history_table td:nth-child(1),
+#filtered_history_table th:nth-child(1), 
+#filtered_history_table td:nth-child(1) { /* Zone column */
+    width: 15%;
+}
+
+#history_table th:nth-child(2), 
+#history_table td:nth-child(2),
+#filtered_history_table th:nth-child(2), 
+#filtered_history_table td:nth-child(2) { /* ID column */
+    width: 15%;
+}
+
+#history_table th:nth-child(3), 
+#history_table td:nth-child(3),
+#filtered_history_table th:nth-child(3), 
+#filtered_history_table td:nth-child(3) { /* Action column */
+    width: 20%;
+}
+
+#history_table th:nth-child(4), 
+#history_table td:nth-child(4),
+#filtered_history_table th:nth-child(4), 
+#filtered_history_table td:nth-child(4) { /* Time column */
+    width: 50%;
+}
+
+/* Status Indicators */
+#history_table tr.entered td, #filtered_history_table tr.entered td {
+    border-left: 4px solid rgba(0, 255, 0, 0.5);
+}
+
+#history_table tr.exited td, #filtered_history_table tr.exited td {
+    border-left: 4px solid rgba(255, 0, 0, 0.5);
+}
+
+/* Filter Controls */
+.filter-controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.filter-group label {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.filter-group select, .filter-group input {
+    padding: 8px 12px;
+    background: rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    color: white;
+    font-size: 0.9rem;
+    min-width: 120px;
+}
+
+.filter-button {
+    padding: 8px 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    margin-top: auto;
+    align-self: flex-end;
+}
+
+.filter-button:hover {
+    background: #45a049;
+    transform: translateY(-2px);
+}
+
+.filter-button.reset {
+    background: #777;
+}
+
+.filter-button.reset:hover {
+    background: #888;
+}
+
+/* Export Controls */
+.export-controls {
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px 0;
+}
+
+.export-button {
+    padding: 8px 16px;
+    background: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+}
+
+.export-button:hover {
+    background: #0b7dda;
+    transform: translateY(-2px);
+}
+
+/* No Data Indicator */
+.no-data {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-style: italic;
+}
+
+/* Responsive Table */
+@media screen and (max-width: 768px) {
+    .history-section, .filtered-history-section {
+        padding: 10px;
+    }
+    
+    #history_table th,
+    #history_table td,
+    #filtered_history_table th,
+    #filtered_history_table td {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    
+    #history_table th:nth-child(4), 
+    #history_table td:nth-child(4),
+    #filtered_history_table th:nth-child(4),
+    #filtered_history_table td:nth-child(4) {
+        width: 40%;
+    }
+    
+    .filter-controls {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .filter-group {
+        width: 100%;
+    }
+}
+
+/* Scrollbar Styling */
+.history-section::-webkit-scrollbar,
+.filtered-history-section::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+.history-section::-webkit-scrollbar-track,
+.filtered-history-section::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 4px;
+}
+
+.history-section::-webkit-scrollbar-thumb,
+.filtered-history-section::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 4px;
+}
+
+.history-section::-webkit-scrollbar-thumb:hover,
+.filtered-history-section::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
