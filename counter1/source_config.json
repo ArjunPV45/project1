@@ -1,0 +1,4 @@
+{
+    "camera1": "rtsp://admin:admin123@10.71.172.253:554/cam/realmonitor?channel=1&subtype=1",
+    "camera2": "/dev/video0"
+}

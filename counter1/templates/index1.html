@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi-Source Multi-Zone Visitor Counter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+            background-color: #f8f9fa;
+        }
+        .camera-view {
+            position: relative;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .camera-feed {
+            width: 100%;
+            max-height: 600px;
+            object-fit: contain;
+        }
+        .canvas-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            pointer-events: none;
+        }
+        .drawing-canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            cursor: crosshair;
+        }
+        .zone-container {
+            margin-top: 15px;
+            padding: 15px;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            background-color: #fff;
+        }
+        .camera-selector {
+            margin-bottom: 15px;
+        }
+        .zone-button {
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+        .counter-display {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .history-container {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .draw-instructions {
+            font-style: italic;
+            margin-bottom: 10px;
+            color: #6c757d;
+        }
+        .snapshot-btn {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .snapshot-btn:hover {
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+        .toast-container {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1060;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <h1 class="mb-4">Multi-Source Multi-Zone Visitor Counter</h1>
+        
+        <div class="toast-container"></div>
+        
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- Camera View -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <h5 class="mb-0">Camera View</h5>
+                            <div class="camera-selector btn-group" role="group">
+                                <!-- Camera buttons will be added here dynamically -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body p-0">
+                        <div class="camera-view">
+                            <img id="cameraFeed" class="camera-feed" src="" alt="Camera Feed">
+                            <canvas id="drawingCanvas" class="drawing-canvas"></canvas>
+                            <button id="snapshotBtn" class="snapshot-btn" title="Take Snapshot">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera" viewBox="0 0 16 16">
+                                    <path d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z"/>
+                                    <path d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Zone Controls -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">Zone Controls</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="draw-instructions">Click and drag on the camera feed to create or update a zone.</p>
+                        <div class="row mb-3">
+                            <div class="col-md-6">
+                                <select id="zoneSelector" class="form-select mb-2">
+                                    <option value="zone1">Zone 1</option>
+                                    <option value="zone2">Zone 2</option>
+                                    <option value="zone3">Zone 3</option>
+                                    <option value="zone4">Zone 4</option>
+                                    <option value="new">New Zone...</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="d-flex">
+                                    <button id="drawZoneBtn" class="btn btn-primary me-2">Draw Zone</button>
+                                    <button id="resetZoneBtn" class="btn btn-danger">Reset Counts</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="newZoneInput" class="row mb-3" style="display: none;">
+                            <div class="col-md-8">
+                                <input type="text" id="newZoneName" class="form-control" placeholder="Enter new zone name">
+                            </div>
+                            <div class="col-md-4">
+                                <button id="createZoneBtn" class="btn btn-success">Create</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-4">
+                <!-- Counters -->
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-info text-white">
+                        <h5 class="mb-0">Counter Statistics</h5>
+                    </div>
+                    <div class="card-body">
+                        <div id="zonesData">
+                            <!-- Zone data will be populated here -->
+                            <div class="alert alert-info">Select a camera to view zone data.</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- History -->
+                <div class="card shadow-sm">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0">Zone History</h5>
+                    </div>
+                    <div class="card-body">
+                        <select id="historyZoneSelector" class="form-select mb-3">
+                            <option value="">Select a zone to view history</option>
+                        </select>
+                        <div id="historyData" class="history-container">
+                            <!-- History will be populated here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for snapshots -->
+    <div class="modal fade" id="snapshotModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Camera Snapshot</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <img id="snapshotImage" class="img-fluid" src="" alt="Snapshot">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <a id="downloadSnapshot" class="btn btn-primary" href="#" download="snapshot.jpg">Download</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <script src="/static/script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+    "sources": [
+        {
+            "name": "RTSP Camera",
+            "url": "rtsp://admin:admin123@10.71.172.253:554/cam/realmonitor?channel=1&subtype=1"
+        }
+    ]
+}

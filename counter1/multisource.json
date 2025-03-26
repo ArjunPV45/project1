@@ -1,0 +1,5533 @@
+{
+    "camera1": {
+        "zones": {
+            "zone1": {
+                "top_left": [
+                    311,
+                    106
+                ],
+                "bottom_right": [
+                    405,
+                    301
+                ],
+                "in_count": 0,
+                "out_count": 0,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:43"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:43"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:06:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:06:44"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:06:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:44"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:47"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:06:54"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:06:54"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:04"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:04"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:06"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:09"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:31"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:33"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:35"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:40"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:46"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:49"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:01"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:01"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:12"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:12"
+                    },
+                    {
+                        "id": 34,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:12"
+                    },
+                    {
+                        "id": 34,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:13"
+                    },
+                    {
+                        "id": 35,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:13"
+                    },
+                    {
+                        "id": 35,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:14"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:37"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:37"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:53"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:54"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:13"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:13"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:13"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:14"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:14"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:14"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:14"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:16"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:27"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:29"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:29"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:30"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:34"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:35"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:38"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:38"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:13"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:16"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:23"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:23"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:24"
+                    },
+                    {
+                        "id": 46,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:25"
+                    },
+                    {
+                        "id": 46,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:29"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:30"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:37"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:38"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:53"
+                    },
+                    {
+                        "id": 49,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:55"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:01"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:06"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:08"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:15"
+                    },
+                    {
+                        "id": 49,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:34"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:36"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:36"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:48"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:50"
+                    },
+                    {
+                        "id": 55,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:51"
+                    },
+                    {
+                        "id": 55,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:54"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:06"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:08"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:31"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:51"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:54"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:55"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:55"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:56"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:00:10"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:00:10"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:00:14"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:00:18"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:29"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:29"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:31"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:35"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:36"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:36"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:37"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:38"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:39"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:39"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:40"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:40"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:43"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:45"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:46"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:47"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:48"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:50"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:51"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:02:17"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:21:50"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:21:57"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:00"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:00"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:01"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:02"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:03"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:04"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:06"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:10"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:10"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:14"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:18"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:18"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:19"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:19"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:46"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:47"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:48"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:54"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:54"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:55"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:55"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:55"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:55"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:00"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:01"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:01"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:01"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:01"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:02"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:03"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:03"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:03"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:03"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:04"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:04"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:05"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:05"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:05"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:09"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:09"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:09"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:09"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:23:11"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:23:12"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:34:45"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:34:58"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:19"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:19"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:21"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:24"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:24"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:25"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:26"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:26"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:26"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:28"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:30"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:30"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:31"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:31"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:38"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:40"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:42"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:46"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:50"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:52"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:52"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:57"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:59"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:38:36"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:38:39"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:38:42"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:38:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:51"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:28:09"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:28:09"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:28:10"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:29:08"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:07:58"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:40:55"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:40"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:49"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:09"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:20"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:24"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:27"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:47"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:48"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:49"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:49"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:49"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:50"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:50"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:51"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:52"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:52"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:53"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:53"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:19:08"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:20:01"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:20:31"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:20:39"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 17:28:43"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 17:28:43"
+                    }
+                ]
+            },
+            "zone5": {
+                "top_left": [
+                    420,
+                    438
+                ],
+                "bottom_right": [
+                    768,
+                    647
+                ],
+                "in_count": 5,
+                "out_count": 4,
+                "inside_ids": [
+                    2
+                ],
+                "history": [
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:11:52"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:11:53"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:52:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:52:44"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:52"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:39"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:43"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:46"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:47"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:47"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:47"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:50"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:51"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-20 17:29:13"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-20 17:29:14"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:52:44"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:07"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:07"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:08"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:08"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:15"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:15"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:15"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:16"
+                    }
+                ]
+            },
+            "zone2": {
+                "top_left": [
+                    438,
+                    276
+                ],
+                "bottom_right": [
+                    560,
+                    421
+                ],
+                "in_count": 2,
+                "out_count": 2,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:07"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:07"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:53:08"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:08"
+                    }
+                ]
+            },
+            "zone3": {
+                "top_left": [
+                    310,
+                    35
+                ],
+                "bottom_right": [
+                    491,
+                    149
+                ],
+                "in_count": 0,
+                "out_count": 0,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 29,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:25"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:26"
+                    },
+                    {
+                        "id": 30,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:27"
+                    },
+                    {
+                        "id": 30,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:28"
+                    },
+                    {
+                        "id": 36,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:35"
+                    },
+                    {
+                        "id": 30,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:35"
+                    },
+                    {
+                        "id": 30,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:35"
+                    },
+                    {
+                        "id": 36,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:36"
+                    },
+                    {
+                        "id": 39,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 39,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:39"
+                    },
+                    {
+                        "id": 42,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:40"
+                    },
+                    {
+                        "id": 42,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:41"
+                    },
+                    {
+                        "id": 42,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:41"
+                    },
+                    {
+                        "id": 42,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:42"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:46"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:47"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:50"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:51"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:54"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:55"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:19"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:21"
+                    },
+                    {
+                        "id": 73,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:56"
+                    },
+                    {
+                        "id": 73,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:58"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:52:44"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:52:45"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:52:47"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:52:55"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:52:57"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:52:59"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:53:07"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:53:45"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:53:46"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:02"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:02"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:04"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:05"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:12"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:19"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:25"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:25"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:26"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:30"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:31"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:48"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:53"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:53"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:54"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:56"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:55:57"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:15"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:16"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:20"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:21"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:56:38"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:56:53"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:01"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:06"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:08"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:15"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:36"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:36"
+                    },
+                    {
+                        "id": 51,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:57:48"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:57:50"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:31"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:51"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:54"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:44"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:46"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:47"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:48"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:01:50"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:01:51"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:21:56"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:21:57"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:21:59"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:00"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:01"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:01"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:03"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:03"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:04"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:04"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:04"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:06"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:09"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:10"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:14"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:18"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:27"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:28"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:31"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:31"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:42"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:42"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:44"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:45"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:37:50"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:37:51"
+                    }
+                ]
+            },
+            "zone4": {
+                "top_left": [
+                    912,
+                    45
+                ],
+                "bottom_right": [
+                    1088,
+                    226
+                ],
+                "in_count": 0,
+                "out_count": 0,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:21"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:23"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:24"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:24"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:25"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:01"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 31,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 31,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:03"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:46"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:47"
+                    },
+                    {
+                        "id": 73,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:19"
+                    },
+                    {
+                        "id": 73,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:20"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:48"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:05"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:05"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:08"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:15"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:15"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:34"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:34"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:43"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:45"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:58"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:00"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:00"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:02"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:06"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:07"
+                    },
+                    {
+                        "id": 47,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:10"
+                    },
+                    {
+                        "id": 84,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:10"
+                    },
+                    {
+                        "id": 84,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:11"
+                    },
+                    {
+                        "id": 84,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 84,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 84,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:13"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:47"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:48"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:22:19"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 18:22:20"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:52"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:52"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:53"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:53"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:54"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:54"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:54"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:54"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:54"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:55"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:55"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:55"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:55"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:56"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:56"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:56"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:57"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:27:58"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:27:59"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:28:00"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 11:28:08"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 11:28:09"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:09:18"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:09:21"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:29"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:10:37"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:38"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:11:05"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:11:05"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:11:05"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:11:07"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:11:07"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:11:07"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:11:28"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:04"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:13"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:13"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:15"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:16"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:19"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:19"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:19"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:20"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:20"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:20"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:20"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:21"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:21"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:22"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:25"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:30"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:30"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:30"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:31"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:33"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:34"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:34"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:35"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:35"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:45"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:45"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:46"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:46"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:47"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:48"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:48"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:53"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:54"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:56"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:57"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:12:57"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:12:58"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:00"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:01"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:01"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:02"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:02"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:05"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:09"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:10"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:11"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:11"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:11"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:13"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:13"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:13:15"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:13:15"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:40"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:41"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:43"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:45"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:46"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:48"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:16:50"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:16:51"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:19:08"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:19:09"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:19:10"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:19:12"
+                    },
+                    {
+                        "id": 23,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:19:13"
+                    },
+                    {
+                        "id": 23,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:19:15"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:19:15"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:19:15"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:20:22"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:20:24"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:17"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:20"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:17"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:17"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:19"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:19"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:19"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:19"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:12:08"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:12:10"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-20 17:28:47"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-20 17:28:53"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-20 17:28:56"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-20 17:28:57"
+                    }
+                ]
+            }
+        }
+    },
+    "camera2": {
+        "zones": {
+            "zone1": {
+                "top_left": [
+                    3,
+                    268
+                ],
+                "bottom_right": [
+                    244,
+                    647
+                ],
+                "in_count": 3,
+                "out_count": 3,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:08"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:25"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:26"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:27"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:34"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:34"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:35"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:40"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:44"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:45"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:46"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:07:47"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:58"
+                    },
+                    {
+                        "id": 21,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:01"
+                    },
+                    {
+                        "id": 21,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:14"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:35"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:53"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:13"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:14:48"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:14:51"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:15:14"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:15:17"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:15:18"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:15:18"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:15:39"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:06"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:06"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:09"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:10"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:35"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:35"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:42"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:52"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:13"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:15"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:32"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:44"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:45"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:55"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:56"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:01"
+                    },
+                    {
+                        "id": 32,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 33,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 32,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:04"
+                    },
+                    {
+                        "id": 33,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:05"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:19"
+                    },
+                    {
+                        "id": 33,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:20"
+                    },
+                    {
+                        "id": 40,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:21"
+                    },
+                    {
+                        "id": 40,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:22"
+                    },
+                    {
+                        "id": 41,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:23"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:23"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:24"
+                    },
+                    {
+                        "id": 41,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:24"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:44"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:45"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:51"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:42"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:42"
+                    },
+                    {
+                        "id": 66,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:58"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:59"
+                    },
+                    {
+                        "id": 66,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:00"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:00"
+                    },
+                    {
+                        "id": 69,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:01"
+                    },
+                    {
+                        "id": 69,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:02"
+                    },
+                    {
+                        "id": 74,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:21"
+                    },
+                    {
+                        "id": 74,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:22"
+                    },
+                    {
+                        "id": 75,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:27"
+                    },
+                    {
+                        "id": 75,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:28"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:16:56"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:16:57"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:16:58"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:17:46"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:17:48"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:37:41"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:55"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:56"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:56"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:57"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:57"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:42:58"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:42:58"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:02"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:03"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:06"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:07"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:08"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:09"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:16"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:17"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:18"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:18"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:22"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:22"
+                    },
+                    {
+                        "id": 26,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:23"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:24"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:24"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:24"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:24"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:30"
+                    },
+                    {
+                        "id": 33,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:30"
+                    },
+                    {
+                        "id": 33,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:34"
+                    },
+                    {
+                        "id": 37,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:35"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:36"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:37"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:38"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:38"
+                    },
+                    {
+                        "id": 37,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:40"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:40"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:41"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:45"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:45"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:45"
+                    },
+                    {
+                        "id": 43,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:46"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:48"
+                    },
+                    {
+                        "id": 52,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:55"
+                    },
+                    {
+                        "id": 52,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:58"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:05"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:05"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:05"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:06"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:06"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:06"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:07"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:07"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:08"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:08"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:08"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:09"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:09"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:09"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:10"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:10"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:10"
+                    },
+                    {
+                        "id": 57,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:10"
+                    },
+                    {
+                        "id": 58,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:11"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:11"
+                    },
+                    {
+                        "id": 58,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:11"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:11"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 57,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:12"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:13"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:13"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:13"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:13"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:13"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:20"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:20"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:21"
+                    },
+                    {
+                        "id": 67,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:34"
+                    },
+                    {
+                        "id": 67,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:36"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:38"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:38"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:38"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:40"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:40"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:42"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:44"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:44"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:44"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:45"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:45"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:46"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:47"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:47"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:47"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:48"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:48"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:48"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:49"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:49"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:49"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:50"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:50"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:50"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:50"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:51"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:51"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:54"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:55"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:55"
+                    },
+                    {
+                        "id": 54,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:56"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:56"
+                    },
+                    {
+                        "id": 53,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:56"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:57"
+                    },
+                    {
+                        "id": 79,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:58"
+                    },
+                    {
+                        "id": 79,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:59"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:00"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:00"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:10"
+                    },
+                    {
+                        "id": 86,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 86,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:13"
+                    },
+                    {
+                        "id": 87,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:14"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:14"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:53:28"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:53:39"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:26"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:26"
+                    },
+                    {
+                        "id": 27,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:55"
+                    },
+                    {
+                        "id": 27,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:56"
+                    },
+                    {
+                        "id": 36,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:55:36"
+                    },
+                    {
+                        "id": 36,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:55:39"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:05"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:08"
+                    },
+                    {
+                        "id": 61,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:09"
+                    },
+                    {
+                        "id": 61,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:09"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:14"
+                    },
+                    {
+                        "id": 63,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 62,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:52"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:52"
+                    },
+                    {
+                        "id": 63,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:52"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:54"
+                    },
+                    {
+                        "id": 66,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:56"
+                    },
+                    {
+                        "id": 66,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:56"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:58"
+                    },
+                    {
+                        "id": 67,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:59"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 18:00:10"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:08:09"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:09:33"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:09"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:10:11"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:53"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:10:54"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:23"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:24"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:20:33"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:20:35"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:15"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:16"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:57"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:57"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:58"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:58"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:22:11"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:22:11"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:22:23"
+                    },
+                    {
+                        "id": 22,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:22:24"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:22:40"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:22:42"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:18"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:19"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:21"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:21"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:23"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:24"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:28"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:30"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:04"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:43:08"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:20"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:43:23"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:23"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:26"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:43:27"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:43:29"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:30"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:43"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:44"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:06:57"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:06:58"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:07:32"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:07:33"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:07:47"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:07:47"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-24 18:17:08"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-24 18:17:25"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:52:44"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:52:44"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:52:44"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-25 14:53:30"
+                    }
+                ]
+            },
+            "zone5": {
+                "top_left": [
+                    43,
+                    175
+                ],
+                "bottom_right": [
+                    187,
+                    299
+                ],
+                "in_count": 2,
+                "out_count": 1,
+                "inside_ids": [
+                    8
+                ],
+                "history": [
+                    {
+                        "id": 7,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:24"
+                    },
+                    {
+                        "id": 7,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:26"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:27"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:23:33"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:23:52"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:11:44"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:11:47"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:11:48"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:11:49"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:11:50"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:11:53"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:11:54"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:11:56"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:03"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:05"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:09"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:19"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:28"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:12:30"
+                    },
+                    {
+                        "id": 21,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:34"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:12:57"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:00"
+                    },
+                    {
+                        "id": 21,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 34,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:02"
+                    },
+                    {
+                        "id": 34,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:07"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:18"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:19"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:24"
+                    },
+                    {
+                        "id": 34,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:24"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:25"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:25"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:43"
+                    },
+                    {
+                        "id": 48,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:44"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:13:48"
+                    },
+                    {
+                        "id": 50,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:13:49"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:42"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:43"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:46"
+                    },
+                    {
+                        "id": 44,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:47"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:48"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:48"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:48"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:48"
+                    },
+                    {
+                        "id": 63,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:53"
+                    },
+                    {
+                        "id": 63,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:54"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:56"
+                    },
+                    {
+                        "id": 64,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:57"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:14:58"
+                    },
+                    {
+                        "id": 65,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:14:59"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:00"
+                    },
+                    {
+                        "id": 59,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:01"
+                    },
+                    {
+                        "id": 79,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:38"
+                    },
+                    {
+                        "id": 79,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:38"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:15:40"
+                    },
+                    {
+                        "id": 80,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:15:40"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:16:56"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:16:58"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:16:59"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:17:45"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:17:45"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:17:45"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:17:46"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:37:42"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 16:37:53"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 16:37:53"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:09"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:10"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:10"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:12"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:13"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:13"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:25"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:27"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:42"
+                    },
+                    {
+                        "id": 38,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:43"
+                    },
+                    {
+                        "id": 41,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:44"
+                    },
+                    {
+                        "id": 41,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:44"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:43:44"
+                    },
+                    {
+                        "id": 45,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:43:44"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:10"
+                    },
+                    {
+                        "id": 56,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:11"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:38"
+                    },
+                    {
+                        "id": 69,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:38"
+                    },
+                    {
+                        "id": 69,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:39"
+                    },
+                    {
+                        "id": 70,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:40"
+                    },
+                    {
+                        "id": 70,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:41"
+                    },
+                    {
+                        "id": 72,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:43"
+                    },
+                    {
+                        "id": 72,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:44"
+                    },
+                    {
+                        "id": 74,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:44:57"
+                    },
+                    {
+                        "id": 74,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:44:58"
+                    },
+                    {
+                        "id": 68,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:10"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 78,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:45:12"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:26"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:27"
+                    },
+                    {
+                        "id": 27,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:54:54"
+                    },
+                    {
+                        "id": 27,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:54:55"
+                    },
+                    {
+                        "id": 58,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:02"
+                    },
+                    {
+                        "id": 58,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:03"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:30"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:32"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:32"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:32"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Entered",
+                        "time": "2025-03-19 17:58:33"
+                    },
+                    {
+                        "id": 60,
+                        "action": "Exited",
+                        "time": "2025-03-19 17:58:33"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:10"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:10:11"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 12:10:53"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 12:10:54"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:17:24"
+                    },
+                    {
+                        "id": 14,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:17:24"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:15"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:15"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:21:15"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:21:16"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:43"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:44"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:16:33"
+                    },
+                    {
+                        "id": 20,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:16:34"
+                    },
+                    {
+                        "id": 8,
+                        "action": "Entered",
+                        "time": "2025-03-25 14:52:44"
+                    }
+                ]
+            },
+            "zone2": {
+                "top_left": [
+                    696,
+                    4
+                ],
+                "bottom_right": [
+                    828,
+                    199
+                ],
+                "in_count": 0,
+                "out_count": 0,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 21,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:22:23"
+                    },
+                    {
+                        "id": 21,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:22:23"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:22:26"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:18"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:22"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:42:22"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:42:22"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:23"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Exited",
+                        "time": "2025-03-20 14:43:26"
+                    },
+                    {
+                        "id": 13,
+                        "action": "Entered",
+                        "time": "2025-03-20 14:43:30"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:29"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-20 15:00:45"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-20 15:00:47"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:07:26"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:07:32"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-20 16:07:47"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-20 16:07:51"
+                    }
+                ]
+            }
+        }
+    },
+    "camera3": {
+        "zones": {
+            "zone1": {
+                "top_left": [
+                    640,
+                    360
+                ],
+                "bottom_right": [
+                    1280,
+                    700
+                ],
+                "in_count": 0,
+                "out_count": 0,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:58"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:58"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:58"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:59"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:08:59"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:08:59"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:00"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:00"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:00"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:00"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:00"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:01"
+                    },
+                    {
+                        "id": 18,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:01"
+                    },
+                    {
+                        "id": 4,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:02"
+                    },
+                    {
+                        "id": 5,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:03"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:03"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:03"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:03"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:03"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:04"
+                    },
+                    {
+                        "id": 10,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:04"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:04"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 17,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 25,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 15,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:05"
+                    },
+                    {
+                        "id": 16,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:06"
+                    },
+                    {
+                        "id": 23,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:06"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 29,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 6,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 31,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 19,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 28,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 24,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:07"
+                    },
+                    {
+                        "id": 31,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:08"
+                    },
+                    {
+                        "id": 30,
+                        "action": "Entered",
+                        "time": "2025-03-19 10:09:08"
+                    },
+                    {
+                        "id": 23,
+                        "action": "Exited",
+                        "time": "2025-03-19 10:09:09"
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,111 @@
+{
+    "camera1": {
+        "zones": {
+            "zone1": {
+                "top_left": [
+                    491,
+                    328
+                ],
+                "bottom_right": [
+                    679,
+                    551
+                ],
+                "in_count": 1,
+                "out_count": 0,
+                "inside_ids": [
+                    1
+                ],
+                "history": [
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:11:06"
+                    }
+                ]
+            },
+            "zone2": {
+                "top_left": [
+                    840,
+                    273
+                ],
+                "bottom_right": [
+                    994,
+                    601
+                ],
+                "in_count": 1,
+                "out_count": 1,
+                "inside_ids": [],
+                "history": [
+                    {
+                        "id": 1,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:10:37"
+                    },
+                    {
+                        "id": 1,
+                        "action": "Exited",
+                        "time": "2025-03-26 11:11:06"
+                    }
+                ]
+            }
+        }
+    },
+    "camera2": {
+        "zones": {
+            "zone1": {
+                "top_left": [
+                    189,
+                    104
+                ],
+                "bottom_right": [
+                    484,
+                    385
+                ],
+                "in_count": 5,
+                "out_count": 2,
+                "inside_ids": [
+                    9,
+                    11,
+                    12
+                ],
+                "history": [
+                    {
+                        "id": 2,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:10:53"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:10:53"
+                    },
+                    {
+                        "id": 9,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:11:05"
+                    },
+                    {
+                        "id": 3,
+                        "action": "Exited",
+                        "time": "2025-03-26 11:11:06"
+                    },
+                    {
+                        "id": 2,
+                        "action": "Exited",
+                        "time": "2025-03-26 11:11:06"
+                    },
+                    {
+                        "id": 11,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:11:07"
+                    },
+                    {
+                        "id": 12,
+                        "action": "Entered",
+                        "time": "2025-03-26 11:11:08"
+                    }
+                ]
+            }
+        }
+    }
+}
